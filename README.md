@@ -30,6 +30,9 @@ To run the ControlNet module, run through the notebook, and call the appropriate
 
 To modify between conditioning checkpoints, modify the class initialization parameter to the desired detector (scribble or mlsd)
 
+## Style Transfer Experiments
+The code for training CycleGAN and running style transfer on pretrained CartoonGAN and AnimeGAN are located in the jupyter notebooks.
+
 Sources for conditioning Checkpoints: 
 [M-LSD](https://huggingface.co/lllyasviel/sd-controlnet-mlsd), 
 [HED](https://huggingface.co/lllyasviel/sd-controlnet-hed), 
