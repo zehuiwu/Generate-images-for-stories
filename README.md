@@ -20,3 +20,18 @@ We use stable diffusion LoRA fine-tuning code from [kohya-ss](https://github.com
 To use our LoRA checkpoint, please download the SDXL base model and the LoRA checkpoint mentioned above and use the [AUTOMATIC1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui) stable diffusion web UI. 
 
 ![image](https://github.com/zehuiwu/Generate-images-for-stories/assets/35386051/548783e0-122a-48b7-a5f5-79895b46e511)
+
+## ControlNet
+
+To run the ControlNet module, run through the notebook, and call the appropriate following class functions to generate background:
+
+    - generate_image_from_sketch(image_path, prompt, outfile)  
+    - generate_image_from_sample(image_path, prompt, outfile)
+
+To modify between conditioning checkpoints, modify the class initialization parameter to the desired detector (scribble or mlsd)
+
+Sources for conditioning Checkpoints: 
+[M-LSD](https://huggingface.co/lllyasviel/sd-controlnet-mlsd), 
+[HED](https://huggingface.co/lllyasviel/sd-controlnet-hed), 
+[Scribble](https://huggingface.co/lllyasviel/sd-controlnet-scribble)
+
