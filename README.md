@@ -1,7 +1,7 @@
 # Generate-images-for-stories
 
 ## Code Rview
-For code review of each other's work, we work on our own part of the project, and coordinate on the overall progress during each week's group meeting. We all contribute enough effort to this project. 
+For code review of each other's work, we work on our own part of the project, and coordinate on the overall progress during each week's group meeting. We don't have peer review of each other's code since we worked on seperated parts of the project.
 
 ## DEMO
 ![image](https://github.com/zehuiwu/Generate-images-for-stories/assets/35386051/7cbebb17-ce01-4148-84ae-50763bfca9a1)
@@ -39,7 +39,7 @@ Sources for conditioning Checkpoints:
 [Scribble](https://huggingface.co/lllyasviel/sd-controlnet-scribble)
 
 ## Style Transfer Experiments
-The code for training CycleGAN and running style transfer on pretrained CartoonGAN and AnimeGAN are located in the jupyter notebooks. For CycleGAN, we modified the stucture of the model by adjusting the number of attention layers and the size of the attention layer. We also manipulated the hyperparameters including learning rate and batch size to optimize the generated images.
+The code for training CycleGAN and running style transfer on pretrained CartoonGAN and AnimeGAN are located in the jupyter notebooks. For CycleGAN, we trained the Hayao and Shinkai style transfer models and evaluate their performance. We ajusted the stucture of the model by changing the number of attention layers and the size of the attention layer. We also manipulated the hyperparameters including learning rate and batch size to optimize the generated images.
 
 For CartoonGAN and AnimeGAN, we fed testing images to the pre-trained Hayao and Shinkai style models, and obtained the transferred images.
 
