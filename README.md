@@ -7,7 +7,7 @@ Zehui Wu - Focused on fine-tuning Stable Diffusion LoRA models.
 
 Nelson Lin - Worked on Sketch-to-image translation models.
 
-Yilin Ye (myself) - Worked on style transfer models.
+Yilin Ye - Worked on style transfer models.
 
 Due to the specialized nature of each task, our project was structured to allow each member to work autonomously. This approach was necessary due to the complexity of the models and the deep technical knowledge required for each specific area. Consequently, each segment of the project did not naturally overlap with the others, making traditional peer reviews less feasible.
 
