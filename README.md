@@ -1,7 +1,21 @@
 # Generate-images-for-stories
 
 ## Code Rview
-For code review of each other's work, we work on our own part of the project, and coordinate on the overall progress during each week's group meeting. We don't have peer review of each other's code since we worked on seperated parts of the project.
+Our project involved three distinctly separate tasks, each requiring specialized expertise and handled independently by individual team members:
+
+Zehui Wu - Focused on fine-tuning Stable Diffusion LoRA models.
+
+Nelson Lin - Worked on Sketch-to-image translation models.
+
+Yilin Ye (myself) - Developed style transfer models.
+
+Due to the specialized nature of each task, our project was structured to allow each member to work autonomously. This approach was necessary due to the complexity of the models and the deep technical knowledge required for each specific area. Consequently, each segment of the project did not naturally overlap with the others, making traditional peer reviews less feasible.
+
+However, we ensured that our individual contributions were aligned with the overall project objectives. We maintained regular meetings to discuss our progress, share insights, and provide feedback on the integration of our models into the larger system. These discussions, while not formal code reviews, served a similar purpose by allowing us to critique and learn from each other's methodologies and approaches.
+
+Furthermore, we are committed to upholding the standards of code quality and documentation as expected. Each member provided clear documentations in the README file in our GitHub repositories to ensure that the code is understandable and maintainable. This documentation includes detailed descriptions of the code functionality, setup instructions, and significant implementation details, which supports future iterations and potential collaborative enhancements.
+
+We hope this explanation clarifies the context of our project's execution and the practical challenges we faced in implementing traditional peer code reviews. We believe our approach, while unconventional, was necessary and effective given the specialized nature of our tasks.
 
 ## DEMO
 ![image](https://github.com/zehuiwu/Generate-images-for-stories/assets/35386051/7cbebb17-ce01-4148-84ae-50763bfca9a1)
