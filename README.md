@@ -37,4 +37,10 @@ Sources for conditioning Checkpoints:
 
 ## Style Transfer Experiments
 The code for training CycleGAN and running style transfer on pretrained CartoonGAN and AnimeGAN are located in the jupyter notebooks.
+Source code for CartoonGAN:
+https://github.com/FilipAndersson245/cartoon-gan
+Source code for AnimeGAN:
+https://github.com/TachibanaYoshino/AnimeGANv3
+Source code for CyclweGAN:
+https://github.com/junyanz/CycleGAN
 
